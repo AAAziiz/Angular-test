@@ -6,6 +6,8 @@
     "smartc_project": {
       "projectType": "application",
       "schematics": {},
+
+      
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -25,9 +27,38 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
+              "node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "src/assets/css/style.css",
+              "src/assets/css/plugins.css",
+              "src/assets/css/colors/purple.css"
+              
+
+
+              
+          
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/owl.carousel/dist/owl.carousel.min.js",
+              "node_modules/svg-injector/dist/svg-injector.min.js",
+              "src/assets/js/plugins.js",
+              "src/assets/js/theme.js"
+
+
+              
+             
+
+
+
+
+              
+              
+            ]
           },
           "configurations": {
             "production": {
